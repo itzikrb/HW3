@@ -16,7 +16,7 @@ public class StrCal
 		int sum=0;
 		return sum;
 		*/
-		return;
+		return 0;
 	 }
 
 	

@@ -14,12 +14,13 @@ public class str
 		 temp.add(" ");
 	 }
 
-	/*
+	
 	@Test	
-	public void  tester()
+	public void  calculateZero()
 	 {
-		// StrCal temp=new  StrCal();
+		 StrCal temp=new  StrCal();
+		 temp.add("0");
 		 
 	 }
-	*/ 
+	 
 }
