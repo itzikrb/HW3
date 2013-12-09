@@ -22,5 +22,13 @@ public class str
 		 temp.add("0");
 		 
 	 }
+	
+	@Test	
+	public void  calculateOnechar()
+	{
+		 StrCal temp=new  StrCal();
+		 temp.add("1");
+	}
+	
 	 
 }
