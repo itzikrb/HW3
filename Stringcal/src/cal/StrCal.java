@@ -8,7 +8,7 @@ public class StrCal
 		
 	   	
 	 
-		/*
+		
 		int i,sum=0;
 		 for(i=0;i<str.length();i++) 
 	     { 	
@@ -21,7 +21,7 @@ public class StrCal
 	
 		 return sum;
 	  }		 
-	  */
-	return ;
-	 }
+	  
+	
+	 
 }
