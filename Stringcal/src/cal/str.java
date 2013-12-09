@@ -30,7 +30,7 @@ public class str
 		 StrCal temp=new  StrCal();
 		System.out.println(temp.add("1")); 
 	}
- 	  
+ 	/*  
 	@Test	
 	public void calculateTwoNumbers()
 	{
@@ -45,5 +45,5 @@ public class str
 		 System.out.println(temp.add("1,2,a.f,#,#,#,#,#,#,#,#,#,1,2,3,a"));
 	}
 	
-	 
+  */	 
 }
