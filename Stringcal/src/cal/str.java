@@ -29,6 +29,13 @@ public class str
 		 StrCal temp=new  StrCal();
 		 temp.add("1");
 	}
+	 
+	@Test	
+	public void  calculateString()
+	{
+		 StrCal temp=new  StrCal();
+		 temp.add("1,2");
+	}
 	
 	 
 }
