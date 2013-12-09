@@ -12,7 +12,7 @@ public class str
 	 {
 		 StrCal temp=new  StrCal();
 		 
-		 temp.add(" ");
+		System.out.println(temp.add(" ")); 
 	 }
 
 	
@@ -20,7 +20,7 @@ public class str
 	public void  calculateZero()
 	 {
 		 StrCal temp=new  StrCal();
-		 temp.add("0");
+		System.out.println(temp.add("0"));
 		 
 	 }
 	
@@ -28,14 +28,21 @@ public class str
 	public void  calculateOnechar()
 	{
 		 StrCal temp=new  StrCal();
-		 temp.add("1");
+		System.out.println(temp.add("1")); 
 	}
  	  
 	@Test	
-	public void  calculateString()
+	public void calculateTwoNumbers()
 	{
 		 StrCal temp=new  StrCal();
-		 temp.add("1,2");
+		System.out.println(temp.add("1,2"));
+	}
+	
+	@Test	
+	public void  calculateSumOfString()
+	{
+		 StrCal temp=new  StrCal();
+		 System.out.println(temp.add("1,2,a.f,#,#,#,#,#,#,#,#,#,1,2,3,a"));
 	}
 	
 	 
