@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class str
 {
+  	
 	@Test
 	public void  tester()
 	 {
@@ -29,7 +30,7 @@ public class str
 		 StrCal temp=new  StrCal();
 		 temp.add("1");
 	}
-	 
+ 	  
 	@Test	
 	public void  calculateString()
 	{

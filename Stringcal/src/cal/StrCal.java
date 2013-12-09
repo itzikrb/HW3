@@ -6,9 +6,11 @@ public class StrCal
 	public int add(String str)
 	 {
 		int i,sum=0;
-		sum=sum+str.charAt(0)-48;
-		sum=sum+str.charAt(1)-48;
-		sum=sum+str.charAt(2)-48;
+		 for(i=0;i<str.length();i++) 
+	     { 	
+			
+		     sum=sum+(str.charAt(i)-48);
+	     }
 		 System.out.println( sum);
 		/*
 	    for(i=0;i<str.length();i++) 
